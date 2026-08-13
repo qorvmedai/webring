@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Machines &amp; Products | WebRing Integrated Services (WIS)</title>
+<meta name="description" content="Explore WIS industrial machinery — garri processing, cassava peeling, palm oil extraction, grain milling and custom fabrication solutions. View specifications and request a quote.">
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="styles.css"/>
+<script id="tailwind-config">
+    tailwind.config = {
+        darkMode: "class",
+        theme: {
+            extend: {
+                "colors": {
+                    "primary": "#000f22", "primary-container": "#0a2540", "on-primary": "#ffffff",
+                    "on-primary-container": "#768dad", "secondary": "#ae3100", "secondary-container": "#fe6431",
+                    "on-secondary": "#ffffff", "surface": "#fcf9f8", "surface-bright": "#fcf9f8",
+                    "surface-container": "#f0eded", "surface-container-low": "#f6f3f2",
+                    "surface-container-high": "#eae7e7", "surface-container-highest": "#e5e2e1",
+                    "on-surface": "#1c1b1b", "on-surface-variant": "#43474d",
+                    "outline": "#74777e", "outline-variant": "#c4c6ce",
+                    "background": "#fcf9f8", "on-background": "#1c1b1b"
+                },
+                "spacing": { "margin-desktop": "80px", "margin-mobile": "20px", "section-gap": "120px", "gutter": "24px", "stack-sm": "8px", "stack-md": "16px", "stack-lg": "32px" },
+                "fontFamily": { "display": ["Montserrat"], "heading": ["Montserrat"], "body": ["Inter"], "mono": ["JetBrains Mono"] },
+                "fontSize": {
+                    "display-lg": ["clamp(40px, 5vw, 64px)", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "800"}],
+                    "headline-md": ["clamp(24px, 3vw, 32px)", {"lineHeight": "1.3", "letterSpacing": "-0.01em", "fontWeight": "700"}],
+                    "headline-sm": ["clamp(18px, 2vw, 22px)", {"lineHeight": "1.4", "fontWeight": "700"}],
+                    "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                    "body-md": ["16px", {"lineHeight": "1.5", "fontWeight": "400"}],
+                    "label-sm": ["12px", {"lineHeight": "1", "letterSpacing": "0.05em", "fontWeight": "500"}]
+                }
+            }
+        }
+    }
+</script>
+<style>
+    .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24; }
+    .anchor-nav { position: sticky; top: 72px; z-index: 40; background: rgba(252,249,248,0.95); backdrop-filter: blur(12px); border-bottom: 1px solid #e5e2e1; }
+    .anchor-nav a { padding: 14px 20px; font-weight: 600; font-size: 14px; color: #43474d; transition: all 0.3s; border-bottom: 2px solid transparent; white-space: nowrap; }
+    .anchor-nav a:hover, .anchor-nav a.active-anchor { color: #000f22; border-bottom-color: #fe6431; }
+</style>
+</head>
+<body class="bg-background text-on-surface font-body antialiased">
+
+<!-- Mobile Overlay -->
+<div class="mobile-overlay"></div>
+<div class="mobile-menu">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="service.html">Services</a>
+  <a href="product.html" class="active-mobile">Machines &amp; Products</a>
+  <a href="contact.html">Contact</a>
+  <a href="contact.html#quote-form" class="mobile-cta">Request Quote</a>
+</div>
+
+<nav class="nav-main bg-primary/80 backdrop-blur-md">
+  <div class="flex justify-between items-center px-margin-mobile md:px-margin-desktop py-4 w-full">
+    <a href="index.html" class="nav-logo"><span class="logo-mark">W</span> WIS</a>
+    <div class="hidden md:flex items-center gap-8">
+      <a class="nav-link" href="index.html">Home</a>
+      <a class="nav-link" href="about.html">About</a>
+      <a class="nav-link" href="service.html">Services</a>
+      <a class="nav-link active" href="product.html">Machines &amp; Products</a>
+      <a class="nav-link" href="contact.html">Contact</a>
+    </div>
+    <div class="flex items-center gap-4">
+      <a href="contact.html#quote-form" class="hidden md:inline-flex btn btn-primary" style="padding:12px 24px;font-size:14px;">Request Quote <span class="material-symbols-outlined" style="font-size:18px">arrow_forward</span></a>
+      <button class="hamburger md:hidden" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<section class="relative min-h-[65vh] flex items-center overflow-hidden hero-parallax">
+  <div class="absolute inset-0 z-0">
+    <div class="hero-bg w-full h-full bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDwIk7gEaHX8IpibH2uKqC1d2Fwi2rNj8KJcGrQ6kEJnpqVr95wR2f4Tba40JJmgNGDdDlMhhmNl3y17qIqVCXzh0OqLvLf3AqPPvNIiGBk7Dw_kLW9h7PBSG2pJgbIBLOK_K8y96y5vFwkNTJ8ecnFmNiE8l_1wC-n8fz-b3bqJUJm8mQEa8n4JT-SHYtFOD2zhLJOlCIqFwAI3qYCRmemzwx4kfIiS9d20Sai37OfSbOoKNt3gLnFGvf8lGhxhQ_-oQagPQOc7Lh')"></div>
+    <div class="absolute inset-0 bg-gradient-to-r from-[#000f22]/90 via-[#000f22]/60 to-transparent"></div>
+  </div>
+  <div class="relative z-10 px-margin-mobile md:px-margin-desktop max-w-5xl pt-32 pb-20">
+    <nav class="flex items-center gap-2 text-white/50 text-sm mb-8 reveal" aria-label="Breadcrumb">
+      <a href="index.html" class="hover:text-white transition-colors">Home</a>
+      <span class="material-symbols-outlined" style="font-size:16px">chevron_right</span>
+      <span class="text-white/80">Machines &amp; Products</span>
+    </nav>
+    <h1 class="font-display text-display-lg text-white mb-6 reveal delay-100">Industrial Machinery <span class="text-[#fe6431]">Catalog</span></h1>
+    <p class="font-body text-body-lg text-white/70 max-w-2xl mb-8 reveal delay-200">Browse our complete range of precision-engineered processing machines. Each solution is designed, fabricated and tested in our Lagos workshop.</p>
+    <a href="#garri" class="btn btn-primary reveal delay-300">Explore by Industry <span class="material-symbols-outlined">arrow_downward</span></a>
+  </div>
+</section>
+
+<!-- ============ ANCHOR NAV ============ -->
+<div class="anchor-nav hidden md:block">
+  <div class="px-margin-desktop flex gap-0 overflow-x-auto max-w-7xl mx-auto">
+    <a href="#garri" class="active-anchor">Garri Processing</a>
+    <a href="#comparison">Specs Comparison</a>
+    <a href="#why-wis">Why WIS</a>
+    <a href="#product-faq">FAQ</a>
+    <a href="#product-quote">Get a Quote</a>
+  </div>
+</div>
+
+<!-- ============ GARRI PROCESSING ============ -->
+<section id="garri" class="py-24 md:py-32 px-margin-mobile md:px-margin-desktop bg-white scroll-mt-28">
+  <div class="max-w-7xl mx-auto">
+    <!-- Industry Header -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-20">
+      <div class="reveal">
+        <div class="section-label mb-6">Industry Focus</div>
+        <h2 class="font-heading text-headline-md text-primary mb-6">Garri &amp; Cassava Processing Solutions</h2>
+        <p class="text-body-lg text-on-surface-variant leading-relaxed mb-6">
+          Garri remains one of Africa's most consumed staple foods, but manual processing is inefficient, inconsistent, and limits scale. Our integrated garri processing line transforms raw cassava into finished product with minimal labour, maximum yield, and total quality control.
+        </p>
+        <div class="bg-[#fff0eb] border-l-4 border-[#fe6431] p-5">
+          <p class="text-sm font-semibold text-[#ae3100] mb-1">The Problem</p>
+          <p class="text-on-surface-variant text-sm">Manual garri production caps output at 0.5–1 ton/day, with inconsistent quality and high labour costs.</p>
+        </div>
+      </div>
+      <div class="reveal-right">
+        <div class="img-reveal shadow-xl">
+          <img class="w-full aspect-[4/3] object-cover" alt="Garri processing production line" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBC49B3BjRuZzpF5qjYzTR1T4hWS5EKlKTdQRELlFT9sLfmXqT-VLBDLcPfGvBmwQJUmFbM3ck8JFkJxVDfMCGaUAZf4-hLVh_m2KjNM8CUQdDjZ-sRNrNbh2j-OQVL3XB4b-Y_TwVhNPQcn9w3JACd9i5RjFxkwKQ0JaQPxMfkJoOJsIUScr-0f3Fh-6OhLFqaWBz5d9TqFaQCa3rdJGKPV16s-PJ5cz_34sOMn3nKZZf7Cg26MnLq1WBYXvDDqpGvx9X2j4XW_4"/>
+        </div>
+      </div>
+    </div>
+
+    <!-- Processing Workflow -->
+    <div class="mb-20 reveal">
+      <h3 class="font-heading text-headline-sm text-primary text-center mb-10">Production Workflow</h3>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div class="text-center p-6 bg-surface-container-low border border-outline-variant">
+          <span class="material-symbols-outlined text-[#fe6431] text-4xl mb-4">content_cut</span>
+          <p class="font-mono text-xs text-[#fe6431] mb-1">Step 01</p>
+          <p class="font-heading font-bold text-sm">Peeling</p>
+        </div>
+        <div class="text-center p-6 bg-surface-container-low border border-outline-variant">
+          <span class="material-symbols-outlined text-[#fe6431] text-4xl mb-4">water_drop</span>
+          <p class="font-mono text-xs text-[#fe6431] mb-1">Step 02</p>
+          <p class="font-heading font-bold text-sm">Washing &amp; Grating</p>
+        </div>
+        <div class="text-center p-6 bg-surface-container-low border border-outline-variant">
+          <span class="material-symbols-outlined text-[#fe6431] text-4xl mb-4">compress</span>
+          <p class="font-mono text-xs text-[#fe6431] mb-1">Step 03</p>
+          <p class="font-heading font-bold text-sm">Pressing &amp; Sieving</p>
+        </div>
+        <div class="text-center p-6 bg-surface-container-low border border-outline-variant">
+          <span class="material-symbols-outlined text-[#fe6431] text-4xl mb-4">local_fire_department</span>
+          <p class="font-mono text-xs text-[#fe6431] mb-1">Step 04</p>
+          <p class="font-heading font-bold text-sm">Frying &amp; Packaging</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Machine Cards -->
+    <h3 class="font-heading text-headline-sm text-primary mb-8 reveal">Available Machines</h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+      <!-- Machine 1 -->
+      <div class="card-industrial overflow-hidden group reveal">
+        <div class="h-56 overflow-hidden relative">
+          <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="WIS Cassava Peeling Machine" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAVF1Y4WIa5xCT_9VmvSZjEBJIqwQbsw7GRjk3EECEYQpNXleTW6s2rC_jTYaIFrQN9P4r-L3SSDXQZ3E5bG1hLiLWqA0eSAypB17xD8kpKtb-fT2k_IH3PW7PVaR-u3_GIdIxcKKqH-SVPrZf3qWh8tq3wHG_zRMI6lkAnnzV2Iipu1F8d8t-kV1h2-3d2TlYGsqHkwM_B-P0Hxm58sQBqK9H3KHgH_WpEOLcDk2T86kqrJkp7aL2NZ2mBf-J8PFBdEww_gY3cS3"/>
+          <div class="absolute top-3 right-3"><span class="badge badge-orange">Best Seller</span></div>
+        </div>
+        <div class="p-6">
+          <h4 class="font-heading font-bold text-lg text-primary mb-2">Cassava Peeling Machine</h4>
+          <p class="text-on-surface-variant text-sm mb-4 leading-relaxed">High-speed industrial peeler designed for 5–8 tons/hour capacity with 98.5% efficiency. Minimal product loss.</p>
+          <div class="flex flex-wrap gap-2 mb-5">
+            <span class="spec-tag text-xs"><span class="material-symbols-outlined">speed</span>8 Tons/hr</span>
+            <span class="spec-tag text-xs"><span class="material-symbols-outlined">bolt</span>8HP Motor</span>
+          </div>
+          <a href="contact.html#quote-form" class="btn btn-primary w-full" style="font-size:14px;">Request Quote <span class="material-symbols-outlined" style="font-size:18px">arrow_forward</span></a>
+        </div>
+      </div>
+      <!-- Machine 2 -->
+      <div class="card-industrial overflow-hidden group reveal delay-100">
+        <div class="h-56 overflow-hidden relative">
+          <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="WIS Automated Garri Fryer" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC_3FDDB1vJshPqFUqbJJTB17eELvyNzjAFGqNDTNz0OmN8qf1a0E_dHB84Z1NPkH05WqJiidPnuwWVw4Tt38hmPGrwUFpFfWCMdWAOJwI2UF8mmzNKcyg-T3a1Vu1cSwNqPcI-6gFKl-ybMxdN5KfSP1S8pcORzqCDGfJPf_pSVEJNGMN4cNyD1bUWoU4_WGAb7LcoZN5bBPIRxkCEBuapFLuOsQRZAJHmzaK4Z39FYXIYVNjKMz0NnXhbPyWONuWGIDWcTXf6GKGM"/>
+          <div class="absolute top-3 right-3"><span class="badge badge-blue">Premium</span></div>
+        </div>
+        <div class="p-6">
+          <h4 class="font-heading font-bold text-lg text-primary mb-2">Automated Garri Fryer</h4>
+          <p class="text-on-surface-variant text-sm mb-4 leading-relaxed">Thermostatically-controlled industrial frying system with uniform heat distribution. Produces consistent, premium garri.</p>
+          <div class="flex flex-wrap gap-2 mb-5">
+            <span class="spec-tag text-xs"><span class="material-symbols-outlined">thermostat</span>Auto-Temp</span>
+            <span class="spec-tag text-xs"><span class="material-symbols-outlined">local_fire_department</span>Gas/Electric</span>
+          </div>
+          <a href="contact.html#quote-form" class="btn btn-primary w-full" style="font-size:14px;">Request Quote <span class="material-symbols-outlined" style="font-size:18px">arrow_forward</span></a>
+        </div>
+      </div>
+      <!-- Machine 3 -->
+      <div class="card-industrial overflow-hidden group reveal delay-200">
+        <div class="h-56 overflow-hidden relative">
+          <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="WIS Hydraulic Cassava Press" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBL1tJbkZL8xK5Yk2Yk6UfKwAycxNK3VcRbk0w-t_OlZZfEQxbsRxoxF2cEVblKZIQlpDV7a8cBZvV7tIdXzYcz3pB9lLnqoXqAIRU10g5mY3XW5CQzk7KNalwzf_2iDcFAqJOgfwm5GC0geMT-5VF1Yf-6vl8c-WF43_T_Zt1VQJh7RDFHpqjzrNTk2xz5R-2rZAVvJdv2xdUjRO5z14OxXKWLlIFNs8LB4UdIqyofpMU-SdlEF3c9I4EGNylMcX3J9w0KHPqIU"/>
+        </div>
+        <div class="p-6">
+          <h4 class="font-heading font-bold text-lg text-primary mb-2">Hydraulic Cassava Press</h4>
+          <p class="text-on-surface-variant text-sm mb-4 leading-relaxed">50-ton hydraulic dewatering press for rapid moisture extraction. Reduces pressing time from 48 hours to under 30 minutes.</p>
+          <div class="flex flex-wrap gap-2 mb-5">
+            <span class="spec-tag text-xs"><span class="material-symbols-outlined">compress</span>50 Tons</span>
+            <span class="spec-tag text-xs"><span class="material-symbols-outlined">timer</span>30 Min</span>
+          </div>
+          <a href="contact.html#quote-form" class="btn btn-primary w-full" style="font-size:14px;">Request Quote <span class="material-symbols-outlined" style="font-size:18px">arrow_forward</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COMPARISON TABLE ============ -->
+<section id="comparison" class="py-24 md:py-32 px-margin-mobile md:px-margin-desktop bg-surface-container scroll-mt-28">
+  <div class="max-w-7xl mx-auto">
+    <div class="text-center mb-12 reveal">
+      <div class="section-label justify-center mb-4">Technical Data</div>
+      <h2 class="font-heading text-headline-md text-primary">Specification Comparison</h2>
+    </div>
+
+    <div class="overflow-x-auto reveal">
+      <table class="w-full bg-white border border-outline-variant text-left min-w-[640px]">
+        <thead>
+          <tr class="bg-primary text-white">
+            <th class="p-5 font-heading font-bold text-sm tracking-wider">Feature</th>
+            <th class="p-5 font-heading font-bold text-sm tracking-wider">WIS-CP800 Peeler</th>
+            <th class="p-5 font-heading font-bold text-sm tracking-wider border-x border-white/10">WIS-GF3000 Fryer</th>
+            <th class="p-5 font-heading font-bold text-sm tracking-wider">WIS-HP50 Press</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-outline-variant">
+          <tr class="hover:bg-surface-container-low transition-colors">
+            <td class="p-5 font-semibold text-sm">Capacity</td>
+            <td class="p-5 text-sm">5–8 Tons/Hour</td>
+            <td class="p-5 text-sm border-x border-outline-variant">3 Tons/Day</td>
+            <td class="p-5 text-sm">50 Tons Pressure</td>
+          </tr>
+          <tr class="hover:bg-surface-container-low transition-colors">
+            <td class="p-5 font-semibold text-sm">Power</td>
+            <td class="p-5 text-sm">8HP Electric</td>
+            <td class="p-5 text-sm border-x border-outline-variant">Gas / Electric</td>
+            <td class="p-5 text-sm">15HP Hydraulic</td>
+          </tr>
+          <tr class="hover:bg-surface-container-low transition-colors">
+            <td class="p-5 font-semibold text-sm">Material</td>
+            <td class="p-5 text-sm">SS 304 Grade</td>
+            <td class="p-5 text-sm border-x border-outline-variant">SS 316 Grade</td>
+            <td class="p-5 text-sm">Mild Steel Frame</td>
+          </tr>
+          <tr class="hover:bg-surface-container-low transition-colors">
+            <td class="p-5 font-semibold text-sm">Warranty</td>
+            <td class="p-5 text-sm">12 Months</td>
+            <td class="p-5 text-sm border-x border-outline-variant">12 Months</td>
+            <td class="p-5 text-sm">18 Months</td>
+          </tr>
+          <tr class="hover:bg-surface-container-low transition-colors">
+            <td class="p-5 font-semibold text-sm">Installation</td>
+            <td class="p-5 text-sm text-[#25D366] font-semibold">Included</td>
+            <td class="p-5 text-sm text-[#25D366] font-semibold border-x border-outline-variant">Included</td>
+            <td class="p-5 text-sm text-[#25D366] font-semibold">Included</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY WIS ============ -->
+<section id="why-wis" class="py-24 md:py-32 bg-industrial-dark text-white scroll-mt-28">
+  <div class="px-margin-mobile md:px-margin-desktop max-w-7xl mx-auto">
+    <div class="text-center mb-16 reveal">
+      <h2 class="font-heading text-headline-md">Why Businesses Choose WIS Machinery</h2>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="card-dark p-8 text-center reveal">
+        <div class="stat-number text-white mb-3" data-count="25" data-suffix="+" style="color: #fe6431">0</div>
+        <p class="font-heading font-bold mb-2">Years of Experience</p>
+        <p class="text-white/50 text-sm">Proven track record of engineering excellence.</p>
+      </div>
+      <div class="card-dark p-8 text-center reveal delay-100">
+        <div class="stat-number text-white mb-3" data-count="500" data-suffix="+" style="color: #fe6431">0</div>
+        <p class="font-heading font-bold mb-2">Machines Deployed</p>
+        <p class="text-white/50 text-sm">Across all 36 Nigerian states.</p>
+      </div>
+      <div class="card-dark p-8 text-center reveal delay-200">
+        <div class="stat-number text-white mb-3" data-count="98" data-suffix="%" style="color: #fe6431">0</div>
+        <p class="font-heading font-bold mb-2">Client Satisfaction</p>
+        <p class="text-white/50 text-sm">Industry-leading customer retention.</p>
+      </div>
+      <div class="card-dark p-8 text-center reveal delay-300">
+        <div class="stat-number text-white mb-3" style="color: #fe6431">24/7</div>
+        <p class="font-heading font-bold mb-2">Technical Support</p>
+        <p class="text-white/50 text-sm">Dedicated maintenance and parts network.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section id="product-faq" class="py-24 md:py-32 px-margin-mobile md:px-margin-desktop scroll-mt-28">
+  <div class="max-w-3xl mx-auto">
+    <div class="text-center mb-12 reveal">
+      <div class="section-label justify-center mb-4">Knowledge Base</div>
+      <h2 class="font-heading text-headline-md text-primary">Frequently Asked Questions</h2>
+    </div>
+    <div class="space-y-3">
+      <div class="faq-item reveal">
+        <button class="faq-trigger">What is the lead time for machine fabrication?<span class="material-symbols-outlined">expand_more</span></button>
+        <div class="faq-content"><div class="faq-content-inner">Standard machines (peelers, pressers, grinders) take 2–4 weeks from deposit confirmation. Complete integrated processing lines require 6–10 weeks including design sign-off and fabrication.</div></div>
+      </div>
+      <div class="faq-item reveal delay-100">
+        <button class="faq-trigger">Do machines come with installation and training?<span class="material-symbols-outlined">expand_more</span></button>
+        <div class="faq-content"><div class="faq-content-inner">Yes. All WIS machines include free on-site installation, calibration, and operator training. We ensure your team is fully equipped to run the machines at peak performance before we leave.</div></div>
+      </div>
+      <div class="faq-item reveal delay-200">
+        <button class="faq-trigger">Can you design a complete production line for my factory?<span class="material-symbols-outlined">expand_more</span></button>
+        <div class="faq-content"><div class="faq-content-inner">Absolutely. We specialize in designing integrated processing lines — from raw material intake to finished product packaging. We start with a site survey, then design, fabricate, install, and commission the entire system.</div></div>
+      </div>
+      <div class="faq-item reveal delay-300">
+        <button class="faq-trigger">What financing options are available?<span class="material-symbols-outlined">expand_more</span></button>
+        <div class="faq-content"><div class="faq-content-inner">We work with several partner financial institutions to facilitate asset financing for registered businesses. Contact our sales team for an introduction to our banking partners and flexible payment plans.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ QUOTE FORM ============ -->
+<section id="product-quote" class="py-24 md:py-32 px-margin-mobile md:px-margin-desktop bg-surface-container scroll-mt-28">
+  <div class="max-w-3xl mx-auto reveal">
+    <div class="bg-white p-8 md:p-12 shadow-xl border-t-4 border-[#fe6431]">
+      <h3 class="font-heading text-headline-sm text-primary mb-2">Request a Machine Quote</h3>
+      <p class="text-on-surface-variant mb-8">Tell us about your production needs and we'll prepare a detailed proposal within 24 hours.</p>
+      <form class="space-y-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="form-field">
+            <label>Your Name</label>
+            <input type="text" placeholder="Full Name" required>
+          </div>
+          <div class="form-field">
+            <label>Company Name</label>
+            <input type="text" placeholder="Company / Business Name">
+          </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="form-field">
+            <label>Phone Number</label>
+            <input type="tel" placeholder="+234 XXX XXX XXXX" required>
+          </div>
+          <div class="form-field">
+            <label>Machine Interest</label>
+            <select>
+              <option>Cassava Peeler</option>
+              <option>Garri Fryer</option>
+              <option>Hydraulic Press</option>
+              <option>Complete Processing Line</option>
+              <option>Custom Solution</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-field">
+          <label>Project Details</label>
+          <textarea rows="4" placeholder="Describe your production needs, capacity requirements, and any specific constraints..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary w-full btn-lg">
+          Submit Quote Request
+          <span class="material-symbols-outlined">send</span>
+        </button>
+        <div class="flex flex-wrap gap-6 justify-center text-sm text-on-surface-variant mt-4">
+          <span class="flex items-center gap-2"><span class="material-symbols-outlined text-[#25D366]" style="font-size:18px">check_circle</span>Response within 24hrs</span>
+          <span class="flex items-center gap-2"><span class="material-symbols-outlined text-[#25D366]" style="font-size:18px">check_circle</span>No obligation</span>
+          <span class="flex items-center gap-2"><span class="material-symbols-outlined text-[#25D366]" style="font-size:18px">check_circle</span>Expert consultation</span>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section class="relative py-24 md:py-32 bg-industrial-dark overflow-hidden">
+  <div class="relative z-10 text-center px-margin-mobile md:px-margin-desktop max-w-4xl mx-auto reveal">
+    <h2 class="font-display text-display-lg text-white mb-6">Can't Find What You Need?</h2>
+    <p class="text-xl text-white/70 mb-10 max-w-2xl mx-auto">We specialize in custom machine engineering. Describe your requirements and we'll design a solution from scratch.</p>
+    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+      <a href="contact.html" class="btn btn-primary btn-lg">Talk to an Engineer <span class="material-symbols-outlined">arrow_forward</span></a>
+      <a href="#" class="btn btn-whatsapp btn-lg"><span class="material-symbols-outlined">chat</span> WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer-main">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 lg:gap-gutter px-margin-mobile md:px-margin-desktop py-16 lg:py-20">
+    <div class="lg:col-span-4 mb-8 lg:mb-0"><a href="index.html" class="nav-logo mb-6 inline-flex"><span class="logo-mark">W</span> WIS</a><p class="text-white/60 max-w-xs mt-4 text-sm leading-relaxed">Precision engineering and industrial fabrication for the modern manufacturer. Built in Nigeria, trusted across Africa.</p><div class="flex gap-3 mt-6"><a class="w-10 h-10 border border-white/15 flex items-center justify-center hover:bg-[#fe6431] transition-all duration-300" href="#"><span class="material-symbols-outlined text-sm">public</span></a><a class="w-10 h-10 border border-white/15 flex items-center justify-center hover:bg-[#fe6431] transition-all duration-300" href="#"><span class="material-symbols-outlined text-sm">link</span></a><a class="w-10 h-10 border border-white/15 flex items-center justify-center hover:bg-[#fe6431] transition-all duration-300" href="#"><span class="material-symbols-outlined text-sm">alternate_email</span></a></div></div>
+    <div class="lg:col-span-2"><h5 class="font-bold text-sm uppercase tracking-wider mb-6 text-white/90">Navigation</h5><ul class="space-y-3"><li><a class="footer-link" href="index.html">Home</a></li><li><a class="footer-link" href="about.html">About Us</a></li><li><a class="footer-link" href="service.html">Services</a></li><li><a class="footer-link" href="product.html">Machines</a></li><li><a class="footer-link" href="contact.html">Contact</a></li></ul></div>
+    <div class="lg:col-span-2"><h5 class="font-bold text-sm uppercase tracking-wider mb-6 text-white/90">Industries</h5><ul class="space-y-3"><li><a class="footer-link" href="product.html#garri">Garri Processing</a></li><li><a class="footer-link" href="product.html#cassava">Cassava Starch</a></li><li><a class="footer-link" href="product.html#oil">Palm Oil</a></li><li><a class="footer-link" href="product.html">Grain Milling</a></li></ul></div>
+    <div class="lg:col-span-4"><h5 class="font-bold text-sm uppercase tracking-wider mb-6 text-white/90">Get In Touch</h5><div class="space-y-4 text-sm"><div class="flex items-start gap-3"><span class="material-symbols-outlined text-[#fe6431]" style="font-size:20px">location_on</span><span class="text-white/60">Plot 42, Engineering Avenue, Phase II Industrial Estate, Lagos, Nigeria</span></div><div class="flex items-center gap-3"><span class="material-symbols-outlined text-[#fe6431]" style="font-size:20px">mail</span><a href="mailto:info@webring.com" class="footer-link">info@webring.com</a></div><div class="flex items-center gap-3"><span class="material-symbols-outlined text-[#fe6431]" style="font-size:20px">call</span><a href="tel:+2340800947832" class="footer-link">+234 (0) 800-WIS-TECH</a></div><a href="#" class="btn btn-whatsapp mt-4" style="padding:12px 24px;font-size:13px;width:fit-content;"><span class="material-symbols-outlined" style="font-size:18px">chat</span>WhatsApp Support</a></div></div>
+  </div>
+  <div class="border-t border-white/8 px-margin-mobile md:px-margin-desktop py-6 flex flex-col md:flex-row justify-between items-center gap-4"><p class="text-white/40 text-xs font-mono tracking-wide">&copy; 2025 WebRing Integrated Services. All Rights Reserved.</p><div class="flex gap-6 text-xs font-mono text-white/40 uppercase tracking-wider"><span>Fabricated in Nigeria</span><span>&bull;</span><span>ISO 9001 Compliant</span></div></div>
+</footer>
+<button class="back-to-top" aria-label="Back to top"><span class="material-symbols-outlined">keyboard_arrow_up</span></button>
+<script src="scripts.js"></script>
+</body>
+</html>
